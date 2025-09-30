@@ -11,4 +11,14 @@ const user1 = {
             }
     }
 }
-console.log(user1.username.fullname.lastname);
+// console.log(user1.username.fullname.lastname);
+
+const course = {
+    instructor : "faran",
+    school : "punjab",
+    fee: 999,
+
+}
+const {fee: fe} = course
+
+console.log( fe);
